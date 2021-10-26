@@ -1,0 +1,112 @@
+// Tariffs names
+const data_electricity_tariffs_gs = {
+    "tariffs": [
+        {
+            "tariff_id": "123451",
+            "tariff_name": "Gas Standard",
+            "unit_rate": 16.37,
+            "standing_charge": 15.824,
+            "monthly_cost": 42,
+            "annual_cost": 504,
+            "unitRateLimit": 300,
+            "unit_rate_2": 9.69,
+            "unit_rate_economy_7": 11.26,
+            "exit_fees": 30,
+            "supplier_img": EDF_logo,
+            "fixed_period": 9,
+            "review_rating": 5
+        },
+        {
+            "tariff_id": "544322",
+            "tariff_name": "Gas Standard Variable",
+            "unit_rate": 20,
+            "standing_charge": 20,
+            "monthly_cost": 20,
+            "annual_cost": 240,
+            "unitRateLimit": 20,
+            "unit_rate_2": 20,
+            "unit_rate_economy_7": 20,
+            "exit_fees": 20,
+            "supplier_img": BGAS_logo,
+            "fixed_period": 8,
+            "review_rating": 4
+        },
+        {
+            "tariff_id": "234123",
+            "tariff_name": "Gas Temporary May 2021",
+            "unit_rate": 21,
+            "standing_charge": 21,
+            "monthly_cost": 21,
+            "annual_cost": 300,
+            "unitRateLimit": 21,
+            "unit_rate_2": 21,
+            "unit_rate_economy_7": 21,
+            "exit_fees": 21,
+            "supplier_img": EON_logo,
+            "fixed_period": 9,
+            "review_rating": 4.5
+        },
+        {
+            "tariff_id": "234134",
+            "tariff_name": "Gas HomeEnergy Fix April 2021",
+            "unit_rate": 22,
+            "standing_charge": 22,
+            "monthly_cost": 22,
+            "annual_cost": 215,
+            "unitRateLimit": 22,
+            "unit_rate_2": 22,
+            "unit_rate_economy_7": 22,
+            "exit_fees": 22,
+            "supplier_img": SSE_logo,
+            "fixed_period": 10,
+            "review_rating": 5
+        },
+        {
+            "tariff_id": "234145",
+            "tariff_name": "Gas Example title 1",
+            "unit_rate": 23,
+            "standing_charge": 23,
+            "monthly_cost": 23,
+            "annual_cost": 312,
+            "unitRateLimit": 23,
+            "unit_rate_2": 23,
+            "unit_rate_economy_7": 23,
+            "exit_fees": 23,
+            "supplier_img": Scottish_logo,
+            "fixed_period": 16,
+            "review_rating": 4.5
+        },
+        {
+            "tariff_id": "234156",
+            "tariff_name": "Gas Example title 2",
+            "unit_rate": 24,
+            "standing_charge": 24,
+            "monthly_cost": 24,
+            "annual_cost": 300,
+            "unitRateLimit": 24,
+            "unit_rate_2": 24,
+            "unit_rate_economy_7": 24,
+            "exit_fees": 24,
+            "supplier_img": Npower_logo,
+            "fixed_period": 24,
+            "review_rating": 4
+        },
+        {
+            "tariff_id": "234167",
+            "tariff_name": "Gas Example title 3",
+            "unit_rate": 25,
+            "standing_charge": 25,
+            "monthly_cost": 25,
+            "annual_cost": 467,
+            "unitRateLimit": 25,
+            "unit_rate_2": 25,
+            "unit_rate_economy_7": 25,
+            "exit_fees": 25,
+            "supplier_img": EDF_logo,
+            "fixed_period": 16,
+            "review_rating": 5
+        }
+    ]
+};
+
+export default data_electricity_tariffs_gs;

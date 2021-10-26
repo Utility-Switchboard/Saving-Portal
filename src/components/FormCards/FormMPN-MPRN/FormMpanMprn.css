@@ -1,0 +1,239 @@
+.form-mpanmprn-section {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form-mpanmprn-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.form-mpanmprn-content {
+  border: 1px solid var(--primary_background);
+  border-radius: 2.5rem;
+  padding: 2rem 4rem;
+  width: 100%;
+  height: auto;
+}
+
+.form-mpanmprn {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+  margin-top: 2.5rem;
+}
+
+.form-mpanmprn h1 {
+  font-size: 2.8rem;
+  color: var(--heading_primary);
+}
+
+.form-mpanmprn p {
+  color: var(--heading_secondary);
+  font-weight: bold;
+  margin: 2.5rem 0 1rem 0;
+  transition: all .2s;
+}
+
+.form-mpanmprn-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.form-mpanmprn-input {
+  width: 100%;
+  max-width: 35rem;
+  padding: 1.2rem;
+  border: 1px solid var(--primary_background);
+  transition: all .4s;
+}
+
+.form-mpanmprn-input:focus {
+  outline: none;
+  border:1px solid var(--tertiary_background);
+  box-shadow: 0 0 0.1rem;
+}
+
+.form-mpanmprn-img {
+  margin: 0 auto;
+  display: none;
+}
+
+/* Buttons */
+.form-mpanmprn-btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.form-mpanmprn-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 4rem;
+}
+
+.btn-next {
+  background-color: var(--tertiary_background);
+  color: var(--text_white);
+  font-weight: bold;
+  padding-left: 5rem;
+  padding-right: 2.5rem;
+  border: 1px solid var(--tertiary_background);
+  ;
+  transition: all .4s;
+}
+
+.btn-next:hover {
+  background-color: var(--white);
+  border: 1px solid var(--tertiary_background);
+  color: var(--primary_color);
+}
+
+.icon-next {
+  transition: all .4s;
+}
+
+.btn-next:hover .icon-next {
+  fill: var(--tertiary_background);
+}
+
+.btn-back {
+  background-color: var(--white);
+  border: 1px solid var(--tertiary_background);
+  color: var(--tertiary_background);
+  font-weight: bold;
+  padding-left: 2.5rem;
+  padding-right: 5rem;
+  transition: all .4s;
+}
+
+.icon-back {
+  transition: all .4s;
+}
+
+.btn-back:hover {
+  background-color: var(--tertiary_background);
+  color: var(--text_white);
+}
+
+.btn-back:hover .icon-back {
+  fill: var(--white);
+}
+
+/* Script */
+.script-mpanmprn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50rem;
+  margin-top: 2.5rem;
+}
+
+/* Assistant */
+.assistant-mpanmprn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 30rem;
+  margin-top: 2.5rem;
+}
+
+.assistant-mpanmprn-custom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 30rem;
+  margin-top: 2.5rem;
+}
+
+.helper-mpanmprn {
+  margin: 0 auto;
+  display: none;
+}
+
+/** MEDIAQUERIES*/
+@media (min-width: 576px) {
+  .form-mpanmprn-img {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .form-mpanmprn-btn-selection-container {
+      flex-wrap: nowrap;
+  }
+
+  .form-mpanmprn-btn-selection-content {
+      margin-right: 5rem;
+  }
+
+  .form-mpanmprn-btn-selection-content:last-of-type {
+      margin-right: 0;
+  }
+
+  .form-mpanmprn-section {
+      width: 750px;
+  }
+
+  .assistant-mpanmprn-custom {
+      margin-left: 2rem;
+      height: 50rem;
+  }
+
+  .helper-mpanmprn {
+      display: flex;
+  }
+}
+
+@media (min-width: 992px) {
+  .form-mpanmprn-section {
+      width: 970px;
+  }
+
+  .form-mpanmprn-container {
+      flex-direction: row;
+  }
+
+  .script-mpanmprn {
+      margin-top: 0;
+      margin-left: 2rem;
+  }
+
+  .assistant-mpanmprn {
+      margin-top: 0;
+      margin-left: 2rem;
+  }
+
+  .assistant-mpanmprn-custom {
+      margin-left: 2rem;
+      height: 35rem;
+  }
+
+  .helper-mpanmprn {
+      width: 100%;
+      flex-direction: column;
+  }
+
+  .form-mpanmprn-content  {
+    min-width: 68rem;
+  } 
+}
+
+@media (min-width: 1200px) {
+
+  .form-mpanmprn-content  {
+    min-width: 72rem;
+  } 
+
+  .form-mpanmprn-section {
+      width: 1170px;
+  }
+}

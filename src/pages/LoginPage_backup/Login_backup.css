@@ -1,0 +1,87 @@
+.user-form {
+    background-color: var(--primary_color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.logo-container {
+  position: fixed;
+  top: 0;
+}
+
+.form-container {
+  padding: 2rem 3rem 3rem 3rem;
+  max-width: 500px;
+  width: 95%;
+  border: 1px solid var(--tertiary_background);
+  border-radius: 1rem;
+  background-color: var(--white);
+  color: var(--heading_secondary);
+}
+
+.form-container h1 {
+  text-align: center;
+  margin: 0 0 3rem 0;
+  color: var(--heading_secondary);
+}
+
+.form-field {
+  display: flex;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.parent-gbtn > button {
+  width: 100%;
+  justify-content: center;
+}
+
+.form-field:last-of-type {
+  margin: 0;
+}
+
+.form-field label {
+  flex: 0 0 100px;
+}
+
+.form-field input[type="password"],
+.form-field input[type="email"],
+.form-field input[type="text"] {
+  border: 1px solid #e1e1e1;
+  padding: 1rem;
+  flex: 1;
+}
+
+.btn-global {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  font-size: 1.4;
+  font-weight: 400;
+  border-radius: 0.5rem;
+  border: none;
+  transition: all 0.4s;
+}
+
+.btn-global:hover {
+  cursor: pointer;
+}
+
+.btnlogin {
+  background-color: var(--tertiary_background);
+  border: 1px solid var(--tertiary_background);
+  color: white;
+  font-weight: bold;
+}
+
+.btnlogin:hover {
+  background: white;
+  color: var(--tertiary_background);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}

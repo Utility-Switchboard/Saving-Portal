@@ -1,0 +1,17 @@
+const data_electricity_tariff_cost_es = {
+    "tariff_cost": [
+        {
+            "tariff_id": "12345",
+            "tariff_name": "Standard",
+            "unit_rate": 16.37,
+            "standing_charge": 15.824,
+            "monthly_cost": 42,
+            "unitRateLimit": 300,
+            "unit_rate_2": 9.69,
+            "unit_rate_economy_7": 11.26,
+            "exit_fees": 30
+        }
+    ]
+}
+
+export default data_electricity_tariff_cost_es;

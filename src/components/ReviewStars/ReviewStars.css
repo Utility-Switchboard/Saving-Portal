@@ -1,0 +1,25 @@
+.form-compare-card-rating-icon {
+  fill: var(--tertiary_background);
+}
+
+.customClass {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.customClass > p {
+  margin-right: .5rem;
+}
+
+@media (min-width: 768px) {
+  .form-compare-card-rating-container {
+    display: flex;
+  }
+
+  .form-compare-card-rating-icon-container {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+  }
+}

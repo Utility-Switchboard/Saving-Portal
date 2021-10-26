@@ -1,0 +1,16 @@
+.btn-login {
+    padding: 1.5rem;
+    border: 1px solid var(--primary_color);
+    border-radius: 2.5rem;
+    color: var(--white);
+    background: var(--primary_color);
+    min-width: 20rem;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.btn-login:hover {
+    color: var(--primary_color);
+    background: var(--white);
+    border: 1px solid var(--primary_color);
+}

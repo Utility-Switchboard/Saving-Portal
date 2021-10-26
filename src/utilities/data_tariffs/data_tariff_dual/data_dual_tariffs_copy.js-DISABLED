@@ -1,0 +1,112 @@
+// Tariffs names
+const data_dual_tariffs = {
+    "tariffs": [
+        {
+            "tariff_id": "12345d",
+            "tariff_name": "Dual Standard",
+            "unit_rate": 30,
+            "standing_charge": 30,
+            "monthly_cost": 30,
+            "annual_cost": 504,
+            "unitRateLimit": 30,
+            "unit_rate_2": 30,
+            "unit_rate_economy_7": 30,
+            "exit_fees": 30,
+            "supplier_img": EDF_logo,
+            "fixed_period": 9,
+            "review_rating": 5
+        },
+        {
+            "tariff_id": "54432d",
+            "tariff_name": "Dual Standard Variable",
+            "unit_rate": 31,
+            "standing_charge": 31,
+            "monthly_cost": 31,
+            "annual_cost": 275,
+            "unitRateLimit": 31,
+            "unit_rate_2": 31,
+            "unit_rate_economy_7": 31,
+            "exit_fees": 31,
+            "supplier_img": BGAS_logo,
+            "fixed_period": 8,
+            "review_rating": 4
+        },
+        {
+            "tariff_id": "23412d",
+            "tariff_name": "Dual Temporary May 2021",
+            "unit_rate": 32,
+            "standing_charge": 32,
+            "monthly_cost": 32,
+            "annual_cost": 184,
+            "unitRateLimit": 32,
+            "unit_rate_2": 32,
+            "unit_rate_economy_7": 32,
+            "exit_fees": 32,
+            "supplier_img": EON_logo,
+            "fixed_period": 9,
+            "review_rating": 4.5
+        },
+        {
+            "tariff_id": "23413d",
+            "tariff_name": "Dual HomeEnergy Fix April 2021",
+            "unit_rate": 33,
+            "standing_charge": 33,
+            "monthly_cost": 33,
+            "annual_cost": 260,
+            "unitRateLimit": 33,
+            "unit_rate_2": 33,
+            "unit_rate_economy_7": 33,
+            "exit_fees": 33,
+            "supplier_img": SSE_logo,
+            "fixed_period": 10,
+            "review_rating": 5
+        },
+        {
+            "tariff_id": "23414d",
+            "tariff_name": "Dual Example title 1",
+            "unit_rate": 34,
+            "standing_charge": 34,
+            "monthly_cost": 34,
+            "annual_cost": 304,
+            "unitRateLimit": 34,
+            "unit_rate_2": 34,
+            "unit_rate_economy_7": 34,
+            "exit_fees": 34,
+            "supplier_img": Scottish_logo,
+            "fixed_period": 16,
+            "review_rating": 4.5
+        },
+        {
+            "tariff_id": "23415d",
+            "tariff_name": "Dual Example title 2",
+            "unit_rate": 35,
+            "standing_charge": 35,
+            "monthly_cost": 35,
+            "annual_cost": 587,
+            "unitRateLimit": 35,
+            "unit_rate_2": 35,
+            "unit_rate_economy_7": 35,
+            "exit_fees": 35,
+            "supplier_img": Npower_logo,
+            "fixed_period": 24,
+            "review_rating": 4
+        },
+        {
+            "tariff_id": "23416d",
+            "tariff_name": "Dual Example title 3",
+            "unit_rate": 36,
+            "standing_charge": 36,
+            "monthly_cost": 36,
+            "annual_cost": 223,
+            "unitRateLimit": 36,
+            "unit_rate_2": 36,
+            "unit_rate_economy_7": 36,
+            "exit_fees": 36,
+            "supplier_img": EDF_logo,
+            "fixed_period": 16,
+            "review_rating": 5
+        }
+    ]
+};
+
+export default data_dual_tariffs;

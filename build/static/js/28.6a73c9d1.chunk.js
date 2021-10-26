@@ -1,0 +1,2 @@
+(this["webpackJsonpinbound-sales-portal"]=this["webpackJsonpinbound-sales-portal"]||[]).push([[28],{114:function(t,a,n){"use strict";n.d(a,"a",(function(){return i}));var s=n(0);function i(t){return Object(s.a)({tag:"svg",attr:{viewBox:"0 0 512 512"},child:[{tag:"path",attr:{d:"M376 211H256V16L136 301h120v195z"}}]})(t)}}}]);
+//# sourceMappingURL=28.6a73c9d1.chunk.js.map

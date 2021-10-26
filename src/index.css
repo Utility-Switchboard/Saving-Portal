@@ -1,0 +1,233 @@
+:root {
+  /* Fonts */
+  --primary_font: 'Spartan', sans-serif;
+  --secondary_font: 'Raleway', 'sans-serif';
+  --text_font: 'Open Sans', sans-serif;
+
+  /* Colors */
+  --primary_color: #D338AE;
+  --secondary_color: #9128C4;
+  --white: #fff;
+
+  /* Headings color */
+  --heading_primary: #D338AE;
+  --heading_secondary: #31145B;
+  --heading_light: #fff;
+
+  /* Text colors */
+  --text_dark: #31145B;
+  --text_white: #fff;
+  --text_black: #000;
+  --text_grey: #e6e4e88c;
+
+  /* Background colors */
+  --primary_background: #31145B;
+  --secondary_background: #9128C4;
+  --tertiary_background: #D338AE;
+  --fourth_background: #FEEAFE;
+  --gradient_background: linear-gradient(90deg, var( --secondary_background ) 0%, var( --tertiary_background ) 100%);
+
+  /* Hover Color */
+  --hover_color: #a62d97;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 10px = 1rem */
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem; 
+  line-height: 1.7; 
+  background-color: var(--white);
+  max-width: 100%!important;
+  height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--text_font);
+  margin: 1rem 0;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: .5rem 0 2.5rem 0;
+  padding: 0;
+}
+
+.hr-custom {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+input[type="text"]:disabled{background-color: var(--fourth_background)}
+
+input:-webkit-autofill,
+input:-webkit-autofill:active
+{
+  box-shadow: 0 0 0 30px white inset !important;
+ -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+button:focus {
+  outline: 0;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+section {
+  margin: 3rem 0;
+}
+
+/* Change autofill to any color 
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #767676;
+  -webkit-box-shadow: none;
+  transition: none;
+} */
+
+/* Utilities */
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
+.pt-1 {
+  padding-top: 1rem;
+}
+
+.pb-2 {
+  padding-bottom: 2rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mr-0 {
+  margin-right: 0!important;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-end {
+  text-align: end!important;
+}
+
+/* Error helper */
+.error-flex {
+  margin-bottom: 2rem;
+}
+
+.error-center {
+  text-align: center;
+}
+
+.error-e7 {
+  margin-left: 6%;
+}
+
+/* Edit & search icon */
+.edit-search-icon {
+  cursor: pointer;
+  color: var(--primary_color);
+  justify-content: center;
+  align-content: center;
+  padding-left: 1rem;
+  /* font-size: 4.023rem; */
+  font-size: 4.5rem;
+  transition: all .4s;
+}
+
+.edit-search-icon:hover {
+  color: var(--primary_background)
+}
+
+.icon-custom {
+  font-size: 4.023rem;
+}
+
+/* Sign icon */
+.sign-icon {
+  padding: 0 .5rem 0 1rem;
+}
+
+/* Sweet Alert */
+.swal-footer {
+  text-align: center;
+}
+
+.swal-text-custom {
+  color: var(--text_dark);
+}
+
+.swal-text-custom h1 {
+  color: var(--heading_secondary);
+}
+
+.swal-text-custom h2 {
+  border-bottom: .2rem solid var(--primary_color);
+  display: inline-block;
+}
+
+.swal-text-custom label {
+  color: var(--primary_color);
+}
+
+.swal-text-custom span {
+  font-weight: bold;
+  color: var(--primary_color);
+}
+
+.swal-custom-container {
+  text-align: start;
+}
+
+.swal-custom-input {
+  border: solid 1px transparent;
+  height: 2.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  background: white;
+  color: #31145b;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  width: 37%;
+}
