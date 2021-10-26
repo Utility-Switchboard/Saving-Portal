@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+# Savings Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The application is based on react, using firebase services for the management and creation of the database as well as authentication.
+
+Its functions are declared, imported and exported inside the file "firebase.js"
+
+We use the ".env" file to store secret keys and sensitive information.
+
+During its construction we integrate different libraries that are specified in the file "package.json"
+
+In the "src" folder, you will find all the components, pages and files necessary for its operation.
+
+We use react router dom for the management and protection of the routes, where we only have two routes that render the two main pages, which are "LoginPage" and "HomePage".
+
+In the component "HomePage" we render all the other components depending on their states.
+
+Each component has its own states propagated and connected to the component “HomePage”.
+
+We use hooks like the "useAddress" to get and render the addresses coming from the Address API in the "FormAddress" component.
 
 ## Available Scripts
 
